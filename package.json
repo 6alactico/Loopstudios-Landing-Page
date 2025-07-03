@@ -1,0 +1,22 @@
+{
+  "name": "loopstudios-landing-page",
+  "version": "1.0.0",
+  "description": "![Design preview for the Loopstudios landing page coding challenge](preview.jpg)",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint:css": "stylelint '**/*.scss'",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/6alactico/Loopstudios-Landing-Page.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/6alactico/Loopstudios-Landing-Page/issues"
+  },
+  "homepage": "https://github.com/6alactico/Loopstudios-Landing-Page#readme"
+}
