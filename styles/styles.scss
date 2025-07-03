@@ -178,7 +178,7 @@ section {
         font-size: clamp($fs-xl, 4vw, $fs-xxxl);
         padding: clamp(1.25rem, 4vw, 2rem);
         text-align: left;
-        width: clamp(50%, 15vw, 100%);
+        width: clamp(50%, 20vw, 100%);
         word-wrap: break-word;
     }
 
@@ -209,23 +209,31 @@ footer {
     flex-direction: column;
     background-color: var(--black);
     color: var(--white);
-    padding: 3.75rem;
+    padding: 3.75rem 3.5rem;
     gap: 2.75rem;
     
     .footer-top, .footer-bottom {
         align-items: center;
     }
+
+    .footer-top {
+        gap: $sp-6;
+    }
+    
+    .footer-bottom {
+        gap: $sp-4;
+    }
     
     .footer-links {
-
+        align-items: center;
         color: var(--white);
         font: normal $fs-sm $font-secondary;
         gap: clamp(1.25rem, 4vw, $sp-6);
     }
     
     .social-icons {
-
-        display: flex;
+        align-items: center;
+        display: inline-flex;
         gap: $sp-4;
     }
 

@@ -172,7 +172,7 @@ section {
   font-size: clamp(1.5rem, 4vw, 2rem);
   padding: clamp(1.25rem, 4vw, 2rem);
   text-align: left;
-  width: clamp(50%, 15vw, 100%);
+  width: clamp(50%, 20vw, 100%);
   word-wrap: break-word;
 }
 .image-card:hover h3 {
@@ -201,19 +201,27 @@ footer {
   flex-direction: column;
   background-color: var(--black);
   color: var(--white);
-  padding: 3.75rem;
+  padding: 3.75rem 3.5rem;
   gap: 2.75rem;
 }
 footer .footer-top, footer .footer-bottom {
   align-items: center;
 }
+footer .footer-top {
+  gap: 2rem;
+}
+footer .footer-bottom {
+  gap: 1rem;
+}
 footer .footer-links {
+  align-items: center;
   color: var(--white);
   font: normal 0.938rem "Alata", sans-serif;
   gap: clamp(1.25rem, 4vw, 2rem);
 }
 footer .social-icons {
-  display: flex;
+  align-items: center;
+  display: inline-flex;
   gap: 1rem;
 }
 footer p {
